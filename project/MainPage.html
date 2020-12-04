@@ -1,0 +1,111 @@
+8<!DOCTYPE html>
+<html>
+<head>
+	<title>MainPage</title>
+	<style>
+		@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,800);
+
+
+
+		html, body {
+			padding:0;
+			margin:0;
+			height:100%;
+			min-height:100%;
+			/*overflow-y:hidden;*/
+			font-family: 'Open Sans Condensed', sans-serif;
+		}
+
+		.left {
+			background-color:#fefefe;
+			width:50%;
+			display:inline;
+			float:left;
+			height:100%;
+		}
+
+		.left-header {
+			border-top:solid 1px #000;
+			height: 20px;
+		}
+
+		.center {
+			text-align:center;
+			width:100%;
+			float:right;
+			font-size:100px;
+			font-weight:800;
+			line-height:90px;
+		}
+
+		.left .center span {
+			font-weight:300;
+			margin-right:12px;
+		}
+
+		.bottom-left{
+			margin-top:450px;
+		}
+
+		.bottom-left, .bottom-right, .signup{
+			width:100%;
+			text-align:center;
+		}
+
+		.bottom-left a, .bottom-right a, .signup a {
+			font-size:26px;
+			display: block;
+			margin: 20px auto;
+			max-width: 180px;
+			text-decoration: none;
+			border-radius: 4px;
+			padding: 20px 30px;
+		}
+
+
+		.bottom-left a, .bottom-right a, .signup a{
+			color: rgba(0, 0, 0, 1);
+			box-shadow: rgba(0, 0, 0, 1) 0 0px 0px 2px inset;
+		}
+
+		.bottom-left a:hover, .bottom-right a:hover, .signup a:hover{
+			color: rgba(255, 255, 255, 1);
+			box-shadow: rgba(0, 0, 0, 1) 0 80px 0px 2px inset;
+		}
+
+		.right {
+			background-color:black;
+			width:50%;
+			display:inline-block;
+			float:left;
+			height:100%;
+			background: url(https://www.payscale.com/career-news/wp-content/uploads/sites/2/2017/02/BusinessSuit-1.jpg); 
+			background-size: cover;
+			background-repeat: no-repeat;
+
+		}
+
+	</style>
+</head>
+<body>
+	<div class="left">
+		<div class='left-header'>
+		</div>
+		<div class="center">
+			The <br />Place <br />To Get<br /> Employed
+		</div>
+		<div class="bottom-left">
+			<a href="file:///C:/xampp/htdocs/project/StudentLogin.html" class="btn"><span>Student</span></a>
+		</div>
+		<div class="bottom-right">
+			<a href="file:///C:/Users/Prateek/Desktop/Web/CompanyLogin.html" class="btn"><span>Company</span></a>
+		</div>
+		<div class="signup">
+			<a href="file:///C:/xampp/htdocs/project/new.html" class="btn"><span>SignUp</span></a>
+		</div>
+	</div>
+	<div class="right">
+
+	</div>
+</body>
+</html>
